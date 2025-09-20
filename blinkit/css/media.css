@@ -1,0 +1,97 @@
+@media only screen and (min-width :200px) and (max-width :575px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        padding: 0px 5px 10px 5px;
+    }
+    .header-box1{
+        justify-content: left;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .address{
+        padding: 10px;
+    }
+    .address h6{
+        font-size: 15px;
+    }
+    .address p {
+        font-size: 12px;
+    }
+    .searchbox button{
+        padding: 9px;
+    }
+    .header-box3{
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        justify-content: center;
+        background-color: white;
+    }
+    .header-box3 button:first-child{
+        padding: 0px 15px 0px 15px;
+    }
+    .bannersection{
+        display: none;
+    }
+    .banner2{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .catogaryitems {
+    flex-basis: 25%;
+}
+.productsection {
+    padding: 30px 10px 0px;
+}
+.headingrow h2{
+    font-size: 16px;
+}
+.headingrow a {
+    font-size: 14px;
+}
+.productrow{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productitems{
+    flex-basis: 47%;
+    margin-bottom: 10px;
+}
+.footer-mid-row1{
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+}
+.Links ul li a {
+    font-size: 10px;
+}
+.catagoryheadingrow{
+    padding-left:0px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.FooterLinks__List {
+    justify-content: space-evenly;
+}
+.FooterLinks__List li a {
+    font-size: 10px;
+}
+.footer-mid-row1left h3{
+    font-size: 14px;
+}
+.footer-mid-row2{
+    flex-direction: column;
+    align-items: center;
+}
+.footer-mid-row2 p{
+    padding: 5px 0px 15px 0px;
+}
+.footer-mid-row3 p{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+}
